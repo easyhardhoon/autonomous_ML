@@ -1,0 +1,6 @@
+<launch>
+  <!--<include file="$(find usb_cam)/launch/xycar_cam.launch" />
+  <include file="$(find xycar_motor)/launch/xycar_motor.launch" /> -->
+
+  <node name="cross_walk" pkg="cross_walk" type="cross_walk_moon.py" output="screen" />
+</launch>

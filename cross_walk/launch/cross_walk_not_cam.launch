@@ -1,0 +1,3 @@
+<launch>
+  <node name="cross_walk" pkg="cross_walk" type="cross_walk_moon.py" output="screen" />
+</launch>

@@ -1,0 +1,4 @@
+<launch>
+
+  <node name="yolo_node" pkg="yolo_node" type="yolo_node.py" output="screen" />
+</launch>
